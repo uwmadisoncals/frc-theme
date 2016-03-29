@@ -1,0 +1,15 @@
+/*
+ Theme Name:   FRC Child
+ Theme URI:    
+ Description:  FRC Child Theme of UW-Madison 15
+ Author:       Kieran Furey-King
+ Author URI:   http://example.com
+ Template:     uw-madison-wp-2015
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+@import url("../uw-madison-wp-2015/style.css");
