@@ -13,3 +13,75 @@
 */
 
 @import url("../uw-madison-wp-2015/style.css");
+
+.site-header .noimageLogo .logoImage .mainTitle {
+	font-size: 30px!important;
+	letter-spacing: 1px!important;
+	top:20px!important;
+}
+.site-header .noimageLogo img, .search-youruw .youruw {
+	display: none!important;
+}
+.site-header .noimageLogo .logoImage {
+	width: 75% !important;
+}
+.admin-bar .site-header,
+.archive .site-header, 
+.blog .site-header, 
+.page .site-header, 
+.search .site-header, 
+.single .site-header, 
+.home.blog .site-header.red, 
+.home.page .site-header.red {
+    background-color: blue!important;
+}
+.search-youruw .search {
+	border-left:0!important;
+}
+
+@media screen and (max-width:1024px) {
+		
+	.site-header .noimageLogo .logoImage .mainTitle {
+		font-size: 27px!important;
+		letter-spacing: 0px!important;
+		top:21px!important;
+	}
+}
+@media screen and (max-width:850px) {
+		
+	.site-header .noimageLogo .logoImage .mainTitle {
+		letter-spacing: -0.5px!important;
+		top:9px!important;
+	}
+	.site-header .noimageLogo .logoImage {
+		width: 65% !important;
+	}
+}
+@media screen and (max-width:600px) {
+		
+	.site-header .noimageLogo .logoImage .mainTitle {
+		font-size: 24px!important;
+		letter-spacing: -1px!important;
+		top:11px!important;
+	}
+	.site-header .noimageLogo .logoImage {
+		width: 85% !important;
+	}
+}
+@media screen and (max-width:400px) {
+		
+	.site-header .noimageLogo .logoImage .mainTitle {
+		top:100px!important;
+		font-size: 21px!important;
+	}
+}
+@media screen and (max-width:350px) {
+		
+	.site-header .noimageLogo .logoImage .mainTitle {
+		top:100px!important;
+		font-size: 18px!important;
+	}
+	.site-header .noimageLogo .logoImage {
+		width: 85% !important;
+	}
+}
