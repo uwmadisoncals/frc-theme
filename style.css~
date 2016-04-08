@@ -48,12 +48,9 @@
 .council {
 	display:flex;
 	flex-wrap:wrap;
-	justify-content: center;
+	justify-content: space-around;
 	list-style-type: none;
 	margin:0!important;
-}
-.council.chairs {
-	justify-content:space-around;
 }
 
 .council li {
