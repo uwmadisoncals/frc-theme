@@ -45,11 +45,10 @@
 
 /* COUNCIL MEMBERS */
 
-.council {
+.council, .newProposals {
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: space-around;
-	list-style-type: none;
 	margin:0!important;
 }
 
@@ -85,6 +84,31 @@
 	line-height: 1.2;
 	font-size:.93em;
 }
+
+.projects {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	list-style-type: none;
+	margin:0!important;
+}
+.projects li {
+	list-style-type: none;
+	padding: .9em 1em .5em;
+	flex: 0 2 150px;
+	border: 2px white dotted;
+	transition-duration: 2s;
+	border-radius: 1em;
+}
+.projects li img {
+	width:100%;
+}
+.projects li:hover {
+	border: 2px black dotted;
+	transition-duration: 1s;
+	background-color:lightgreen;
+}
+
 
 /* ---- ---- Media Queries Below ---- ---- */
 
