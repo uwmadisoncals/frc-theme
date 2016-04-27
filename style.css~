@@ -13,7 +13,7 @@
 */
 
 @import url("../madisonwp2015/style.css");
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Alike|Ubuntu:400,500,700);
 
 /* HEADER, SITE TITLE */
 
@@ -21,13 +21,12 @@
 	font-size: 30px!important;
 	letter-spacing: 1px!important;
 	top:20px!important;
-	font-family: 'Alegreya Sans', sans-serif!important;
+	font-family: Alike, sans-serif!important;
 }
 .site-header .main-navigation .site-navigation-container li a {
-	font-family: 'Alegreya Sans', sans-serif!important;
-	text-transform: inherit!important; -->
+<!-- 	text-transform: inherit!important; -->
 	font-weight: 300!important;
-	letter-spacing: .9px!important;
+	letter-spacing: 0.5px!important;
 	font-size: .8em!important;
 }
 .site-header .noimageLogo img, .search-youruw .youruw {
@@ -37,20 +36,30 @@
 	width: 75% !important;
 }
 
-.admin-bar .site-header,
-.archive .site-header, 
-.blog .site-header, 
-.page .site-header, 
-.search .site-header, 
-.single .site-header, 
-.home.blog .site-header.red, 
-.home.page .site-header.red {
-    background-color: green!important;
+
+.site-header {
+	background-color: green!important;
+}
+.site-header .main-navigation {
+	    background: rgba(255,255,255,.1) !important;
+}
+.main-navigation a:hover {
+		background: rgba(0,0,0,.2)!important;
 }
 .search-youruw .search {
 	border-left:0!important;
 }
 
+a, p, h1, h2, h3, h4, span {
+	font-family: Ubuntu, sans-serif!important;
+}
+.site-main .entry-header h1.entry-title {
+	font-weight: 700;
+}
+.entry-content h2{
+	font-weight: 500;
+}
+	
 /* HOME PAGE */
 
 .site-main .entry-header h1.entry-title { 
@@ -58,7 +67,6 @@
 	font-size:1.5em!important;
 
 }
-
 
 /* COUNCIL MEMBERS */
 
@@ -79,19 +87,20 @@
 	margin:0 10px 25px 0;
 	width:93px;
 	height:108px;
+	display: inline;
 }
 .council br {
 	display: none;
 }
 .council li h6 {
-	display: inline;
+	display: inline-block;
 	font-weight: bold;
 	font-size: 1.07em;
 	margin:0;
 }
-.council li h6 span {
+.council li h5 {
 	font-weight: normal;
-	display:block;
+	display:inline-block;
 	font-size: .93em;
 	line-height: 1;
 }
