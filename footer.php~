@@ -15,7 +15,9 @@
 	<?php } ?>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="footerWrapper">
-
+		<div class="site-info">
+			<a href="http://www.wisconsin.edu/">&copy; Board of Regents of the University of Wisconsin System</a>
+		</div><!-- .site-info -->
 		<div class="footerLogos">
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/img/datcp.png" alt="Wisconsin Department of Agriculture, Trade and Consumer Protection logo" id="datcp">
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/img/cals.jpg" alt="UW-Madison College of Agriculture & Life Sciences">
