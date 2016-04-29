@@ -35,8 +35,12 @@
 .site-header .noimageLogo .logoImage {
 	width: 75% !important;
 }
-
-
+ #content {
+	margin-top: 2em!important;
+}
+.home #content {
+	margin-top: 0!important;
+}
 .site-header {
 	background-color: green!important;
 }
@@ -87,20 +91,19 @@ a, p, h1, h2, h3, h4, span {
 	margin:0 10px 25px 0;
 	width:93px;
 	height:108px;
-	display: inline;
 }
 .council br {
 	display: none;
 }
 .council li h6 {
-	display: inline-block;
+	display: inline;
 	font-weight: bold;
 	font-size: 1.07em;
 	margin:0;
 }
-.council li h5 {
+.council li h6 span {
 	font-weight: normal;
-	display:inline-block;
+	display:block;
 	font-size: .93em;
 	line-height: 1;
 }

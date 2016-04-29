@@ -35,8 +35,12 @@
 .site-header .noimageLogo .logoImage {
 	width: 75% !important;
 }
-
-
+ #content {
+	margin-top: 3em!important;
+}
+.home #content {
+	margin-top: 0!important;
+}
 .site-header {
 	background-color: green!important;
 }
