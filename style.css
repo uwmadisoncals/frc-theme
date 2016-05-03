@@ -42,6 +42,12 @@
 .home #content {
 	margin-top: 0!important;
 }
+<<<<<<< HEAD
+=======
+.site-header {
+	/*background-color: green!important;*/
+}
+>>>>>>> origin/master
 .site-header .main-navigation {
 	    background: rgba(255,255,255,.1) !important;
 }
