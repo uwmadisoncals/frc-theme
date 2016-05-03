@@ -42,17 +42,12 @@
 .home #content {
 	margin-top: 0!important;
 }
-<<<<<<< HEAD
-=======
-.site-header {
-	/*background-color: green!important;*/
+.site-header .main-navigation, .main-navigation a:hover,  .main-navigation *:focus {
+	    background: rgba(0,0,0,.2) !important;
 }
->>>>>>> origin/master
-.site-header .main-navigation {
-	    background: rgba(255,255,255,.1) !important;
-}
-.main-navigation a:hover {
-		background: rgba(0,0,0,.2)!important;
+#site-navigation {
+	    background: rgba(0,0,0,.2) !important;
+
 }
 .search-youruw .search {
 	border-left:0!important;
@@ -86,17 +81,28 @@ footer .social {
 
 /* COUNCIL MEMBERS */
 
-.council, .newProposals {
+
+
+.council, .newProposals, .textCouncil {
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: space-around;
 	margin:0!important;
 }
-
+.textCouncil li {
+	flex: 0 1 16em;
+	padding: 1em;
+	list-style-type: none;
+	text-align: center;
+}
+.textCouncil li::first-line {
+	font-weight: bold;
+	font-size: 1.2em;
+}
 .council li {
 	flex:0 1 333px;
 	list-style-type: none;
-	padding: 1em;
+	padding: 1em 10em;
 }
 .council li img {
 	float:left;
