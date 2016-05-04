@@ -183,7 +183,10 @@ footer .social {
 	float:left;
 	clear:none;
 }
-
+.sidebar_menu #nav_explore li a, .sidebar_menu #nav_explore>li:last-child a {
+	padding: .2em 0 !important;
+	text-transform: capitalize!important;
+}
 
 
 /* ---- ---- Media Queries Below ---- ---- */
