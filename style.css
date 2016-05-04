@@ -1,6 +1,6 @@
 /*
  Theme Name:   FRC Child
- Theme URI:    
+ Theme URI:
  Description:  FRC Child Theme of UW-Madison 15
  Author:       Kieran Furey-King
  Author URI:   http://example.com
@@ -62,18 +62,18 @@ a, p, h1, h2, h3, h4, span {
 .entry-content h2{
 	font-weight: 500;
 }
-	
+
 .footerLogos img {
 	height: 80px;
 	padding: .1em 1.1em;
-}	
+}
 footer .social {
 	display: none;
 }
-	
+
 /* HOME PAGE */
 
-.site-main .entry-header h1.entry-title { 
+.site-main .entry-header h1.entry-title {
 	color: #555!important;
 	font-size:1.5em!important;
 
@@ -132,14 +132,16 @@ footer .social {
 	font-size:.93em;
 }
 
-.projects {
+/* INFO FOR RESEARCHERS PAGE */
+
+.documents {
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: space-around;
 	list-style-type: none;
 	margin:0!important;
 }
-.projects li {
+.documents li {
 	list-style-type: none;
 	padding: .9em 1em .5em;
 	flex: 0 2 150px;
@@ -147,14 +149,41 @@ footer .social {
 	transition-duration: .7s;
 	border-radius: 1em;
 }
-.projects li img {
+.documents li img {
 	width:100%;
 }
-.projects li:hover {
+.documents li:hover {
 	border: 2px black dotted;
 	transition-duration: .3s;
 	background-color:lightgreen;
 }
+
+
+/* FUNDED PROJECTS & SUBPAGES */
+
+.project {
+	margin-top: 4em;
+}
+.project:first-of-type {
+	margin-top:1em;
+}
+.project h2, .project h3 {
+	margin:0;
+	color:#404040;
+}
+.project h4 {
+	font-size: 1.05em;
+}
+.project p {
+	margin:0;
+}
+.project h5 {
+	font-size: .9em;
+	padding-right: 1em;
+	float:left;
+	clear:none;
+}
+
 
 
 /* ---- ---- Media Queries Below ---- ---- */
@@ -166,7 +195,7 @@ footer .social {
 /* TABLETS & SMALLER... */
 
 @media screen and (max-width:850px) {
-		
+
 	.site-header .noimageLogo .logoImage .mainTitle {
 		letter-spacing: -0.5px!important;
 		top:9px!important;
@@ -180,7 +209,7 @@ footer .social {
 /* LARGE MOBILES & SMALLER... */
 
 @media screen and (max-width:600px) {
-		
+
 	.site-header .noimageLogo .logoImage .mainTitle {
 		font-size: 24px!important;
 		letter-spacing: -1px!important;
@@ -194,7 +223,7 @@ footer .social {
 /* SMALL MOBILES & SMALLER */
 
 @media screen and (max-width:400px) {
-		
+
 	.site-header .noimageLogo .logoImage .mainTitle {
 		top:100px!important;
 		font-size: 21px!important;
@@ -204,7 +233,7 @@ footer .social {
 /* SMALLER STILL */
 
 @media screen and (max-width:350px) {
-		
+
 	.site-header .noimageLogo .logoImage .mainTitle {
 		top:100px!important;
 		font-size: 18px!important;
