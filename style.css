@@ -63,9 +63,12 @@ a, p, h1, h2, h3, h4, span {
 	font-weight: 500;
 }
 
+footer.site-footer {
+	padding:1em;
+}
 .footerLogos img {
 	height: 80px;
-	padding: .1em 1.1em;
+	margin: .3em 1em .1em;
 }
 footer .social {
 	display: none;
@@ -90,10 +93,13 @@ footer .social {
 	margin:0!important;
 }
 .textCouncil li {
-	flex: 0 1 16em;
+	flex: 0 1 15em;
 	padding: 1em;
 	list-style-type: none;
 	text-align: center;
+}
+.contact li {
+	flex: 0 1 18em;
 }
 .textCouncil li::first-line {
 	font-weight: bold;
