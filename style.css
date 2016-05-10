@@ -99,7 +99,7 @@ footer .social {
 	text-align: center;
 }
 .contact li {
-	flex: 0 1 18em;
+	flex: 0 1 20em;
 }
 .textCouncil li::first-line {
 	font-weight: bold;
@@ -194,6 +194,23 @@ footer .social {
 	text-transform: capitalize!important;
 }
 
+.projPageList {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+.projPageList li {
+	flex: 0 1 10em;
+	list-style: none;
+	font-size:2em;
+	font-weight: bold;
+	text-align: center;
+	margin:0;
+	padding:.5em 0;
+}
+.projPageList li a:hover {
+	text-decoration: underline;
+}
 
 
 
