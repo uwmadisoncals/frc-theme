@@ -67,8 +67,11 @@ footer.site-footer {
 	padding:1em;
 }
 .footerLogos img {
-	height: 80px;
+	height: 100px;
 	margin: .3em 1em .1em;
+}
+.footerLogos #calsIMG {
+	padding: 10px 0;
 }
 footer .social {
 	display: none;
@@ -83,8 +86,6 @@ footer .social {
 }
 
 /* COUNCIL MEMBERS */
-
-
 
 .council, .newProposals, .textCouncil {
 	display:flex;
