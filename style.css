@@ -95,13 +95,10 @@ footer .social {
 	margin:0!important;
 }
 .textCouncil li, .page #post-167 li {
-	flex: 0 1 16em;
+	flex: 0 1 20em;
 	padding: 1em;
 	list-style-type: none;
 	text-align: center;
-}
-.contact li, .page #post-167 li {
-	flex: 0 1 20em;
 }
 /*.textCouncil li::first-line {
 	font-weight: bold;
@@ -114,7 +111,7 @@ footer .social {
 	font-weight:bold;
 }
 .textCouncil li p, .page #post-167 li p {
-	margin: .2em 0 1em;
+	margin: .2em 0 .6em;
 }
 .council li {
 	flex:0 1 333px;
