@@ -88,32 +88,32 @@ footer .social {
 
 /* COUNCIL MEMBERS */
 
-.council, .newProposals, .textCouncil {
+.council, .newProposals, .textCouncil, .page #post-167 ul {
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: space-around;
 	margin:0!important;
 }
-.textCouncil li {
+.textCouncil li, .page #post-167 li {
 	flex: 0 1 16em;
 	padding: 1em;
 	list-style-type: none;
 	text-align: center;
 }
-.contact li {
+.contact li, .page #post-167 li {
 	flex: 0 1 20em;
 }
 /*.textCouncil li::first-line {
 	font-weight: bold;
 	font-size: 1.2em;
 }*/
-.textCouncil li h2 {
+.textCouncil li h2, .page #post-167 li h2 {
 	margin:0;
 	color:black;
 	font-size:20px;
 	font-weight:bold;
 }
-.textCouncil li p {
+.textCouncil li p, .page #post-167 li p {
 	margin: .2em 0 1em;
 }
 .council li {
