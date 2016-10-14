@@ -95,7 +95,7 @@ footer .social {
 	margin:0!important;
 }
 .textCouncil li {
-	flex: 0 1 15em;
+	flex: 0 1 16em;
 	padding: 1em;
 	list-style-type: none;
 	text-align: center;
@@ -111,6 +111,10 @@ footer .social {
 	margin:0;
 	color:black;
 	font-size:20px;
+	font-weight:bold;
+}
+.textCouncil li p {
+	margin: .2em 0 1em;
 }
 .council li {
 	flex:0 1 333px;
